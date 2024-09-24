@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Johandre Ilham - Flutter Developer</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -15,7 +18,9 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>Johandre Ilham</h1>
+                    <!-- <h1>Johandre Ilham</h1> -->
+                    <a href="#home"><img src="https://i.ibb.co/x5cfWdD/Logo-Johandre-Ilham-1.webp"
+                            alt="Logo-Johandre-Ilham-1"></a>
                 </div>
                 <nav class="nav-bar">
                     <ul>
@@ -57,14 +62,17 @@
             <div class="about-text">
                 <h2>About Me</h2>
                 <p>
-                    Hello! I’m Johandre Ilham Rajagukguk, a passionate Flutter Developer with a keen eye for detail and
-                    a love for creating beautiful and functional applications. My journey in software development has
-                    equipped me with a strong foundation in mobile development, UI/UX design, and problem-solving.
+                    Hello! I am Johandre Ilham Rajagukguk, a passionate Flutter Developer with a background in
+                    Informatics Engineering, focusing on Mobile Development. I am dedicated to creating beautiful,
+                    functional applications, and my experience has given me a solid foundation in mobile technology,
+                    UI/UX design, and problem-solving.
                 </p>
                 <p>
-                    With experience in developing innovative solutions, I thrive in collaborative environments where
-                    creativity and technical skills intersect. My goal is to continuously learn and grow, contributing
-                    to impactful projects and delivering high-quality user experiences.
+                    With proven experience in developing innovative solutions, I excel in team environments that combine
+                    creativity and technical expertise. My leadership, time management, and communication skills enable
+                    me to work well in a fast-paced environment. I am deeply committed to advancing mobile app
+                    development, using new ideas to solve challenges and deliver high-quality user experiences. I am
+                    always eager to learn, grow and contribute to projects in mobile technology.
                 </p>
             </div>
         </div>
@@ -192,23 +200,39 @@
     <section id="contact" class="contact-section">
         <div class="contact-container">
             <div class="contact-left">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTl4EcUHsOGh5fHFsBGDHaV2BVUo4HyrV7eA&s"
-                    alt="Contact Image" class="contact-image">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="from_name">Name:</label>
+                        <input type="text" id="from_name" name="from_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send</button>
+                    </div>
+
+                </form>
             </div>
             <div class="contact-right">
-                <h2>Contact Me</h2>
+                <h2>Contact Info</h2>
                 <ul class="contact-info">
-                    <li><strong>Email:</strong> johandre.ilham@example.com</li>
-                    <li><strong>Phone:</strong> +123 456 7890</li>
-                    <li><strong>Instagram:</strong> <a href="https://instagram.com/yourprofile"
-                            target="_blank">@yourprofile</a></li>
-                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">Your
-                            LinkedIn Profile</a></li>
+                    <li><strong>Email:</strong> johandreilham2000@gmail.com</li>
+                    <li><strong>Phone:</strong> +62 822 - 7562 - 4430</li>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/johandreilham_/"
+                            target="_blank">@johandreilham_</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johandreilhamrajagukguk/"
+                            target="_blank">Johandre Ilham Rajagukguk</a></li>
                 </ul>
             </div>
         </div>
     </section>
-
 
     <footer>
         <div class="container">
