@@ -43,4 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.documentElement.scrollTop = 0;
 
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    if (navLinks.style.display === 'flex') {
+        navLinks.style.display = 'none';
+    } else {
+        navLinks.style.display = 'flex';
+    }
+}
 
